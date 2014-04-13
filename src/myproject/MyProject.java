@@ -75,7 +75,7 @@ import javax.swing.*;
                 { JOptionPane.showMessageDialog(this,"copyright 2013 , Meryem Games.\n","Démineur",JOptionPane.INFORMATION_MESSAGE);}
                 if(e.getSource()==skill){
                     this.setVisible(false);
-                    SkillMeterM s=new SkillMeterM();
+                    SkillMeter s=new SkillMeter();
                 }
                else if(e.getSource()==demin){
                     this.setVisible(false);

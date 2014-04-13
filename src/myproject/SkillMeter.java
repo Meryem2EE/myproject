@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
- class SkillMeterM extends JFrame implements ActionListener {
+ class SkillMeter extends JFrame implements ActionListener {
 	private static final long serialVersionUID = 1L;
 	private JPanel panel1, panel2;
         private JPanel panelPrincipal=new JPanel(new GridLayout(3,1));
@@ -27,7 +27,7 @@ import javax.swing.*;
         JMenuItem aprpos=new JMenuItem("A propos");
         JMenuItem Quitter=new JMenuItem("Quitter");
 
-	public SkillMeterM() {
+	public SkillMeter() {
 		super();
 		setTitle("Calcul de F ");
                 this.setSize(500,550);
@@ -139,7 +139,7 @@ import javax.swing.*;
                 
 	}
 	public static void main(String[] args) {
-		SkillMeterM  f = new SkillMeterM ();
+		SkillMeter  f = new SkillMeter ();
 		f.setVisible(true);
 	}
 }
