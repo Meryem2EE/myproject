@@ -10,7 +10,6 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
-import myproject.*;
 //import myproject.Interet;
 
  public class Acceuil extends JFrame implements ActionListener,MenuListener{

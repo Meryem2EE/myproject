@@ -23,7 +23,6 @@ import javax.swing.*;
         JPanel pan1=new JPanel();
         
         
-        
 	public MyProject()
 	{
     this.setTitle("Meryem Games");        
