@@ -1,7 +1,10 @@
+package myproject;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
+import myproject.Acceuil;
 
  public class Interet extends JFrame implements ActionListener {
 	private static final long serialVersionUID = 1L;

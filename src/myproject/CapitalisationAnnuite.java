@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-//package myproject;
+package myproject;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

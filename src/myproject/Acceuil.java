@@ -1,3 +1,5 @@
+package myproject;
+
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -8,6 +10,7 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
+import myproject.*;
 //import myproject.Interet;
 
  public class Acceuil extends JFrame implements ActionListener,MenuListener{
@@ -103,7 +106,7 @@ import javax.swing.event.MenuListener;
                 { JOptionPane.showMessageDialog(this,"copyright 2014 ,Elouragini Meryem.\n","",JOptionPane.INFORMATION_MESSAGE);}
                 if(e.getSource()==skill){
                     this.setVisible(false);
-                    SkillMeterM s=new SkillMeterM();
+                    SkillMeter s=new SkillMeter();
                 }
                else if(e.getSource()==demin){
                     this.setVisible(false);
